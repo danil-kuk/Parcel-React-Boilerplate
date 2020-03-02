@@ -16,6 +16,9 @@ cp src/404.html dist
 # navigate into the build output directory
 cd dist
 
+# if you are deploying to a custom domain
+# echo 'www.example.com' > CNAME
+
 # Creating new git repository for deploy
 now=$(date +"%d-%m-%Y %H:%M")
 echo Deploying...
@@ -26,8 +29,8 @@ git commit -m "Deploy ${now}"
 
 # Pushing to gh-pages
 echo Pushing to GitHub Pages...
-# git push -f https://github.com/<Username>/<RepoName>.git master:gh-pages
-git push -f https://github.com/danil-kuk/Parcel-React-Boilerplate.git master:gh-pages
+# Add your own GitHub UserName and RepoName
+git push -f https://github.com/<UserName>/<RepoName>.git master:gh-pages
 
 # Removing output build folder and cache
 echo Removing build folder...
