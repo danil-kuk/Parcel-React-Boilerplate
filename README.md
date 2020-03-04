@@ -32,13 +32,12 @@ npm run start
 This boilerplate supports easy one-command deploy to GitHub Pages.  
 Before deploy it needs to be **configured**:
 1. In *package.json* add your RepoName to "deploy-build" script 
-2. In *deploy.sh* add your GitHub UserName and RepoName in "Pushing to gh-pages" section
-3. Run `chmod +x deploy.sh` in terminal to allow executing deploy script
-4. Done!
+2. In *deploy.sh* add your GitHub UserName and RepoName in "Pushing to gh-pages" section  
 Now you can deploy your app to GH Pages with one command:
 ```
 npm run deploy
 ```
+*Optinal:* If you have problems with permission try to run `chmod +x deploy.sh` in terminal to allow executing deploy script
 
 ## Lint
 ```
