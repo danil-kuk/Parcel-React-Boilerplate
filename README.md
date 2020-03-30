@@ -37,7 +37,7 @@ Now you can deploy your app to GH Pages with one command:
 ```
 npm run deploy
 ```
-*Optinal:* If you have problems with permission try to run `chmod +x deploy.sh` in terminal to allow executing deploy script
+*Note:* If you have problems with permission try to run `chmod +x deploy.sh` in terminal to allow executing deploy script
 
 ## Lint
 ```
