@@ -8,7 +8,7 @@ Boilerplate has React Router 5.2.0 installed
 **Parcel**  
 Parcel 1.12.4 is used as bundler  
 **ESlint**  
-ESLint 6.8.0 is included with "eslint-plugin-react". It can be configured inside *.eslintrc* file  
+ESLint 7.1.0 is included with "eslint-plugin-react". It can be configured inside *.eslintrc* file  
 **Babel**  
 This boilerplate has preinstalled babel plugins for React  
 
