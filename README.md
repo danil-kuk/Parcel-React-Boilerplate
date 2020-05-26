@@ -4,7 +4,7 @@
 **React**   
 This boilerpalte based on React 16.13.1  
 **React Router**  
-Boilerplate has React Router 5.1.2 installed  
+Boilerplate has React Router 5.2.0 installed  
 **Parcel**  
 Parcel 1.12.4 is used as bundler  
 **ESlint**  

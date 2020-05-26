@@ -1,5 +1,5 @@
 {
-    "extends": "eslint:recommended",
+    "extends": "standard",
     "parser": "babel-eslint",
     "env": {
       "browser": true,
@@ -16,11 +16,13 @@
       "no-underscore-dangle": 0,
       "no-use-before-define": 0,
       "eol-last": 0,
-      "quotes": [2, "single"],
+      "quotes": ["error", "single", { "allowTemplateLiterals": true }],
       "jsx-quotes": [1, "prefer-single"],
       "react/jsx-no-undef": 1,
       "react/jsx-uses-react": 1,
       "react/jsx-uses-vars": 1,
-      "semi": [2, "never"]
+      "semi": [2, "never"],
+      "space-before-function-paren": ["warn", "never"],
+      "eqeqeq": 0
     }
   }
