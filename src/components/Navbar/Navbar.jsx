@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-class Navbar extends Component {
+export class Navbar extends Component {
   render() {
     return (
       <div className='navbar-container'>
@@ -10,7 +10,7 @@ class Navbar extends Component {
             <Link to='/'>Home</Link>
           </li>
           <li>
-            <Link to='/about'>About</Link>
+            <Link to='/fetch-data'>Fetch Data</Link>
           </li>
           <li>
             <Link to='/hello'>Hello</Link>
@@ -20,5 +20,3 @@ class Navbar extends Component {
     )
   }
 }
-
-export default Navbar

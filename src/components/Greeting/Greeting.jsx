@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Greeting extends Component {
+export class Greeting extends Component {
   constructor(props) {
     super(props)
     this.state = { name: props.name }
@@ -9,10 +9,8 @@ class Greeting extends Component {
   render() {
     return (
       <div className='navbar-container'>
-        <h2>Hello, {this.state.name}!</h2> 
+        <h2>Hello, {this.state.name}!</h2>
       </div>
     )
   }
 }
-
-export default Greeting
