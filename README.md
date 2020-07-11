@@ -2,15 +2,17 @@
 
 ## Features
 **React**   
-This boilerpalte based on React 16.13.1  
+This boilerpalte based on React
 **React Router**  
-Boilerplate has React Router 5.2.0 installed  
+Boilerplate has React Router installed  
 **Parcel**  
-Parcel 1.12.4 is used as bundler  
+Parcel is used as bundler  
 **ESlint**  
-ESLint 7.1.0 is included with "eslint-plugin-react". It can be configured inside *.eslintrc* file  
+ESLint is included with "eslint-plugin-react". It can be configured inside *.eslintrc* file  
 **Babel**  
 This boilerplate has preinstalled babel plugins for React  
+**CSS Modules**  
+You can use SASS/SCSS in your code, "postcss-modules" package is included
 
 
 ## Quick start
