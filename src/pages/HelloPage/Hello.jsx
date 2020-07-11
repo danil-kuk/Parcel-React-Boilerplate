@@ -2,11 +2,8 @@ import React from 'react'
 import Greeting from '../../components/Greeting'
 
 export class Hello extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      userName: 'Somebody'
-    }
+  state = {
+    userName: 'Somebody'
   }
 
   render() {
