@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import './style.scss'
+import { NavLink } from 'react-router-dom'
+import style from './style.scss'
 
 export class Navbar extends Component {
   render() {
     return (
       <nav>
-        <Link to='/'>Home</Link>
-        <Link to='/fetch-data'>Fetch Data</Link>
-        <Link to='/hello'>Hello</Link>
+        <NavLink exact to='/' activeClassName={style.activeLink}>Home</NavLink>
+        <NavLink to='/fetch-data' activeClassName={style.activeLink}>Fetch Data</NavLink>
+        <NavLink to='/hello' activeClassName={style.activeLink}>Hello</NavLink>
       </nav>
     )
   }

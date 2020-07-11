@@ -1,11 +1,12 @@
 import React from 'react'
+import style from './style.scss'
 
 export class FetchData extends React.Component {
   render() {
     return (
-      <div className='about'>
+      <div className={style.fetchData}>
         <h1>Fetch Data</h1>
-        <h3>Show async fetch() data in console</h3>
+        <h3>Show some data in console</h3>
         <button onClick={getData}>Get Data</button>
       </div>
     )
