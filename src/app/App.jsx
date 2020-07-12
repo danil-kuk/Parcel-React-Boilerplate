@@ -4,7 +4,6 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import FetchData from './pages/FetchData'
 import Hello from './pages/HelloPage'
-import './style.scss'
 
 class App extends Component {
   render() {

@@ -4,8 +4,8 @@
   "description": "Parcel React Boilerplate",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html",
+    "start": "parcel ./src/assets/index.html",
+    "build": "parcel build ./src/assets/index.html",
     "deploy": "sh ./deploy.sh",
     "lint": "eslint --fix --ext .js,.jsx src"
   },
